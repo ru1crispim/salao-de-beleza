@@ -1,0 +1,71 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    border: 1px solid black;
+    height: 10vh;
+}
+
+header img{
+    border: 1px solid black;
+    height: 10vh;
+    width: 20%;
+}
+header nav{
+    display: flex;
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
+
+.intro{
+    border: 1px solid black;
+    height: 80vh;
+    /* background-image: url(https://th.bing.com/th/id/OIP.iV-3msbHMD8Vq9S-LBw4ggHaEo?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+
+}
+.intro img{
+    width: 2000px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 80vh;
+    
+}
+
+.about-1{
+    border: 1px solid black;
+    height: 80vh;
+    width: 50%;
+}
+.about-2{
+    border: 1px solid black;
+    height: 80vh;
+    width: 50%;
+}
+.services{
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.infra{
+    border: 1px solid black;
+    height: 80vh;
+}
+
+footer{
+    border: 1px solid black;
+    height: 10vh;
+}
+
